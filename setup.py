@@ -51,6 +51,7 @@ ext_modules = [
         language='c++',
         extra_compile_args=['-std=c++11'],
         include_dirs=[
+            'reppy/include',
             'reppy/rep-cpp/include',
             'reppy/rep-cpp/deps/url-cpp/include'])
 ]
