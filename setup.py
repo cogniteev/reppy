@@ -88,7 +88,8 @@ Sitemaps, Allow, and Crawl-delay. Main features:
         'cachetools',
         'python-dateutil>=1.5, !=2.0',
         'requests',
-        'six'
+        'six',
+        'cython'
     ],
     classifiers=[
         'License :: OSI Approved :: MIT License',
